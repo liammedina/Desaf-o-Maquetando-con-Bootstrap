@@ -93,8 +93,43 @@ header{
 }
 
 
+/*ESTILOS CONTACTO*/
+
+.headerPages{
+    height: 20vh;
+    background-color: rgb(116, 104, 88);
+    padding-top: 2vh;
+}
+.formContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    margin-top: 15px;
+    width: 30vw;
+}
+.nombre{
+    margin-top: 100px;
+}
+
+.form-select{
+    margin-top: 15px;
+}
+.col-auto{
+    margin-top: 15px;
+}
+.formBtn{
+    margin-top: 15px;
+}
+.btn-success{
+    background-color: rgb(88, 33, 33);
+}
 
 
+/*MEDIA QUERYS*/
 @media(max-width: 1024px){
     .img1{ 
         width: 180px;
@@ -135,6 +170,14 @@ header{
     }
     .figure img{
         height: 400px;
+    }
+    .formContact{
+        align-items: center;
+        justify-content:space-around ;
+    }
+    .imgContact{
+        width: 30vw;
+        height: 35vh;
     }
     
 }
@@ -185,11 +228,29 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     }
-
+    .formContact{
+    
+        
+        justify-content:space-around;
+        width: 90vw;
+    }
+    .imgContact{
+        width: 30vw;
+        height: 25vh;
+    }
+    .form-control{
+        width: 60vw;
+    }
+    .form-select{
+        width: 60vw;
+    }
 }
 @media (max-width: 425px) {
     header{
         height: 30vh;
+    }
+    .logoFooter{
+        width: 40vw;
     }
     .figure {
         flex-direction: column;
@@ -207,5 +268,32 @@ header{
         margin: 10px auto;
         background-color: #6F6964;
     }
+    .d-flex {
+        padding: 0;
+    }
+    .formContainer{
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+    }
+    .imgContact{
+        width: 90vw;
+        height: 30vh;
+        margin-top: 5vh;
+    }
+    .formContact{
+        margin-top: 3vh;
+
+    }
+    .form-control{
+        width: 90vw;
+    }
+    .form-select{
+        width: 90vw;
+    }
+    .nombre{
+        margin-top: 0;
+    }
+
 }
 

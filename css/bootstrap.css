@@ -3914,12 +3914,14 @@ textarea.form-control-lg {
 
 .nav {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
   align-content: center;
   align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .nav-link {
@@ -6724,6 +6726,11 @@ textarea.form-control-lg {
 
 .d-flex {
   display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 .d-inline-flex {
