@@ -94,6 +94,28 @@ footer{
     height: 10vh;
 }
 
+/*ESTILOS PRODUCTOS*/
+.mainProductos{
+    width: 98.5vw;
+    background-image: linear-gradient(to top, #6f6964, #8d8883, #aba9a4, #cccac6, #edede9);
+}
+.cardProductos{
+    border:solid 2px rgb(182, 181, 181);
+    border-radius: 15px;
+    margin: 10px 5px;
+}
+.card-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 6vh;
+    text-align: center;
+    text-shadow: 4px 4px 5px rgba(75, 74, 74, 0.84);
+}
+.card-text{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
 
 /*ESTILOS CONTACTO*/
 
@@ -232,8 +254,8 @@ footer{
         font-size: 10px;
     }
     .d-md-flex{
-    flex-wrap: wrap;
-    justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .formContact{
         justify-content:space-around;
@@ -249,9 +271,23 @@ footer{
     .form-select{
         width: 50vw;
     }
+    .card-text{
+        font-size: 2vh;
+    }
+    .mainProductos{
+        width: 100vw;
+        flex-wrap: rap;
+    }
+    .cardProductos{
+        flex-wrap: rap;
+    }
+    .col{
+        padding: 2px;
+    }
 }
 
 @media (max-width: 425px) {
+
     header{
         height: 30vh;
     }
@@ -268,7 +304,7 @@ footer{
         width: 90vw;
         align-items: center;
     }
-    .px3 {
+    .px3{
         position: relative;
         border-radius: 5%;
         margin: 10px auto;
@@ -298,6 +334,12 @@ footer{
     }
     .nombre{
         margin-top: 0;
+    }
+    .cardProductos{
+        width: 88vw;
+    }
+    .col{
+        padding: 0 4vw;
     }
 }
 
