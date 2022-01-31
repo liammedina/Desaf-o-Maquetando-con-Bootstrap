@@ -50,7 +50,6 @@ header{
     flex-direction: column;
     margin: 20px;
     justify-content: space-around;
-    
 }
 .text-muted1{
     font-family: 'Dancing Script', cursive;
@@ -91,14 +90,17 @@ header{
     flex-wrap: nowrap;
     padding: 0 20px;
 }
+footer{
+    height: 10vh;
+}
 
 
 /*ESTILOS CONTACTO*/
 
 .headerPages{
-    height: 20vh;
+    height: 15vh;
     background-color: rgb(116, 104, 88);
-    padding-top: 2vh;
+    padding-top: 1vh;
 }
 .formContainer{
     display: flex;
@@ -107,14 +109,16 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+.imgContact{
+    width: 45vw;
+}
 .form-control{
     margin-top: 15px;
     width: 30vw;
 }
 .nombre{
-    margin-top: 100px;
+    margin-top: 40px;
 }
-
 .form-select{
     margin-top: 15px;
 }
@@ -126,6 +130,10 @@ header{
 }
 .btn-success{
     background-color: rgb(88, 33, 33);
+}
+.containerFooter{
+    height: 6vh;
+    padding-bottom: 0%;
 }
 
 
