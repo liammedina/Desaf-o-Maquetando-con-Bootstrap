@@ -104,7 +104,7 @@ header{
     display: flex;
     flex-direction: row;
     width: 100vw;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .form-control{
@@ -130,12 +130,12 @@ header{
 
 
 /*MEDIA QUERYS*/
+
 @media(max-width: 1024px){
     .img1{ 
         width: 180px;
         height: 180px;
     }
-    
     h2{
         font-size: 15px;
     }
@@ -160,7 +160,6 @@ header{
         height: 60vh;
     }
     .figure p{
-        
         margin: 29px;
         color: rgb(27, 15, 15);
     }
@@ -173,15 +172,18 @@ header{
     }
     .formContact{
         align-items: center;
-        justify-content:space-around ;
+    }
+    .formContainer{
+        justify-content: space-around;
     }
     .imgContact{
-        width: 30vw;
-        height: 35vh;
+        width: 50vw;
+        height: 55vh;
     }
-    
+    .nombre{
+        margin-top: 5vh;
+    }
 }
-
 
 @media (max-width: 768px) {
     .bd-placeholder-img-lg {
@@ -201,7 +203,6 @@ header{
     }
     .figure{
         height: 80vh;
-        
         width: 90vw;
         margin: 10px;
         text-align: center;
@@ -219,32 +220,29 @@ header{
     .imgCard{
         height: 40vh;
     }
-    
     p .lead{
         font-size: 10px;
     }
-
     .d-md-flex{
     flex-wrap: wrap;
     justify-content: space-around;
     }
     .formContact{
-    
-        
         justify-content:space-around;
         width: 90vw;
     }
     .imgContact{
-        width: 30vw;
-        height: 25vh;
+        width: 45vw;
+        height: 40vh;
     }
     .form-control{
-        width: 60vw;
+        width: 50vw;
     }
     .form-select{
-        width: 60vw;
+        width: 50vw;
     }
 }
+
 @media (max-width: 425px) {
     header{
         height: 30vh;
@@ -283,7 +281,6 @@ header{
     }
     .formContact{
         margin-top: 3vh;
-
     }
     .form-control{
         width: 90vw;
@@ -294,6 +291,5 @@ header{
     .nombre{
         margin-top: 0;
     }
-
 }
 
