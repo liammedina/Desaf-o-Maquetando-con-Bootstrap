@@ -8652,6 +8652,7 @@ textarea.form-control-lg {
   .d-md-flex {
     display: flex !important;
     flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .d-md-inline-flex {

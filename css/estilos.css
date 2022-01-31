@@ -19,7 +19,6 @@ body{
 header{
     position: relative;
     height: 100vh;
-    
 }
 .figure{
     display: flex;
@@ -39,24 +38,19 @@ header{
 }
 .figure img{
     height: 450px;
-    
 }
-
-
 .ratio{
     position: absolute;
 }
 .row1{
     margin: 79px;
 }  
-.cards{
+.card{
     display: flex;
-    flex-direction: row;
-    margin: 40px;
+    flex-direction: column;
+    margin: 20px;
     justify-content: space-around;
-}
-.card-body{
-    width: 101px;
+    
 }
 .text-muted1{
     font-family: 'Dancing Script', cursive;
@@ -100,16 +94,13 @@ header{
 
 
 
+
 @media(max-width: 1024px){
     .img1{ 
         width: 180px;
         height: 180px;
     }
-    .s{
-        height: 100vh;
-        flex-direction: column;
-        
-    }
+    
     h2{
         font-size: 15px;
     }
@@ -162,6 +153,9 @@ header{
     .card{
         width: 40vw;
     }
+    .imgCard{
+        height: 200px;
+    }
     .figure{
         height: 80vh;
         
@@ -171,6 +165,7 @@ header{
     }
     .figure img{
         height: 300px;
+        width: auto;
     }
     .figure .text-muted1{
         font-size: 22px;
@@ -188,10 +183,14 @@ header{
 
     .d-md-flex{
     flex-wrap: wrap;
+    justify-content: space-around;
     }
 
 }
 @media (max-width: 425px) {
+    header{
+        height: 30vh;
+    }
     .figure {
         flex-direction: column;
     }
